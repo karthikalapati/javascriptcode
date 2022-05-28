@@ -1,0 +1,51 @@
+<div class="login-heading">
+  <div class="card">
+    <div class="card-header">
+      <h5 class="card-title">Registration Page</h5>
+    </div>
+    <div class="card-body">
+      <div class="profile-pic">
+        <img [src]="imagefile" id="photo">
+        <input type="file" id="file" (change)="imgfile($event)">
+        <label for="file" id="upload">Choose Photo</label>
+      </div>
+      <div style="display:flex" class="mt-3 ">
+        <div class="form-floating m-2 text-div">
+          <input type="text" class="form-control" id="FirstName" placeholder="First Name">
+          <label for="FirstName">First Name</label>
+        </div>
+        <div class="form-floating m-2 text-div">
+          <input type="text" class="form-control" id="LastName" placeholder="Last Name">
+          <label for="LastName">Last Name</label>
+        </div>
+      </div>
+
+      <div style="display:flex">
+        <div class="form-floating m-2 text-div">
+          <input type="password" class="form-control" id="Password" placeholder="Password">
+          <label for="Password">Password</label>
+        </div>
+        <div class="form-floating m-2 text-div">
+          <input type="password" class="form-control" id="CPassword" placeholder="CPassword">
+          <label for="CPassword">Confirm Password</label>
+        </div>
+      </div>
+
+      <div style="display:flex">
+        <div class="form-floating m-2 text-div">
+          <input type="phone" class="form-control" id="Phoneno" placeholder="Phone Number">
+          <label for="Phoneno">Phone Number</label>
+        </div>
+        <div class="form-floating m-2 text-div">
+          <input type="text" class="form-control" id="Address" placeholder="Address">
+          <label for="Address">Address</label>
+        </div>
+      </div>
+
+      <div style="display:flex; float: right;" class="mt-3 m-2">
+        <button type="button" class="btn btn-primary btn-lg pl-2 pr-2">Submit</button>&nbsp;&nbsp;&nbsp;
+        <button type="button" class="btn btn-danger btn-lg pl-2 pr-2">Cancel</button>
+      </div>
+    </div>
+  </div>
+  </div>

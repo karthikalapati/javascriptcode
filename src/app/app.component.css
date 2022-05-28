@@ -1,0 +1,23 @@
+.heading{
+  color:whitesmoke;
+  font-weight: 300;
+}
+.bg-img {
+  background-image: url("../assets/nature-3082832__480.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+a{
+  color:white;
+  font-size: 18px;
+}
+
+a:hover{
+  font-size: 20px;
+  text-decoration: none;
+  color:white;
+}

@@ -1,0 +1,71 @@
+.card-body{
+  display: inline-grid;
+}
+
+.login-heading{
+  text-align: center;
+  transform: translate(146%,36%);
+  background-color: ghostwhite;
+  overflow-y: hidden;
+  width:25% !important;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px 10px -1px black;
+}
+
+.card-title{
+  padding:5px;
+  font-size: 30px;
+}
+
+* {box-sizing: border-box;}
+
+/* Style the input container */
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 20px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+  font-size: large;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  /*background-color: dodgerblue;*/
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.lbl{
+  margin-left: 46px;
+    font-size: larger;
+}
+
+
